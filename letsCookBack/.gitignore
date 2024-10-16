@@ -1,0 +1,52 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+*.log
+local_settings.py
+
+# Environnements virtuels
+venv/
+env/
+.Python
+
+# Pytest et autres outils de test
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# MyPy et Pyre (outils de vérification de type)
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Configurations de l'éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Static files (si non versionnés)
+staticfiles/
+media/
+
+# Environnement Python pour Poetry
+poetry.lock
+pyproject.toml
+__pypackages__/
+
+# Fichiers de migration générés par Django (optionnel)
+migrations/**/__pycache__/
+migrations/**/*.pyc
+migrations/*.pyc
+
+# Système macOS
+.DS_Store
