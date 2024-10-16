@@ -10,7 +10,7 @@ function App() {
       <Router>
         <NavBar />
         <main>
-          HELLO WO
+          HELLO
         </main>
       </Router>
 
